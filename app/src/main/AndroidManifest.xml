@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     package="com.wingled22.androidcrud">
 
     <application
@@ -12,10 +11,9 @@
         <activity android:name=".CategoryActivity"
             android:exported="false"
             />
-        <activity android:name=".FruitActivity"
+        <activity android:name=".ProductActivity"
             android:exported="false"
             />
-
         <activity
             android:name=".MainActivity"
             android:exported="true">

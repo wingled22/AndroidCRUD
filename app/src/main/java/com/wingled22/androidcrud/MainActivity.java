@@ -8,10 +8,11 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+public class MainActivity extends AppCompatActivity {
 
     Button categoryButton ;
     Button fruitsButton ;
+    Button productButton ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,20 +20,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
 
         categoryButton = findViewById(R.id.categoryButton);
+        productButton = findViewById(R.id.productButton);
         fruitsButton = findViewById(R.id.fruitsButton);
 
     }
 
-    @Override
-    public void onClick(View v) {
-        switch (v.getId()){
-            case R.id.categoryButton:
-            case R.id.fruitsButton:
-
-//
-
-        }
-    }
 
     public void categoryClicked(View view) {
 //        Toast toast = Toast.makeText(MainActivity.this,"category button is clicked", Toast.LENGTH_SHORT );
@@ -43,6 +35,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     }
 
+    public void productClicked(View view) {
+//        Toast toast = Toast.makeText(MainActivity.this,"category button is clicked", Toast.LENGTH_SHORT );
+//        toast.show();
+        Intent intent = new Intent(this, ProductActivity.class);
+        startActivity(intent);
+    }
 
     public void fruitClicked(View view) {
 
