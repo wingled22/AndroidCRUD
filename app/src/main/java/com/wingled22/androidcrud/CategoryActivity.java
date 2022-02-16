@@ -1,12 +1,11 @@
 package com.wingled22.androidcrud;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class CategoryActivity extends AppCompatActivity implements CategoryAddFragment.CategoryAddListener{
 
@@ -36,6 +35,7 @@ public class CategoryActivity extends AppCompatActivity implements CategoryAddFr
 
     @Override
     public void saveCategory(String name) {
+
         Toast.makeText(this, name, Toast.LENGTH_SHORT).show();
     }
 }
