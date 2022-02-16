@@ -20,7 +20,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         categoryButton = findViewById(R.id.categoryButton);
-        productButton = findViewById(R.id.productButton);
         fruitsButton = findViewById(R.id.fruitsButton);
 
     }
