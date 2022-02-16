@@ -1,14 +1,17 @@
 package com.wingled22.androidcrud;
 
 import androidx.appcompat.app.AppCompatActivity;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+public class MainActivity extends AppCompatActivity {
 
     Button categoryButton ;
+    Button fruitsButton ;
     Button productButton ;
 
     @Override
@@ -18,28 +21,33 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         categoryButton = findViewById(R.id.categoryButton);
         productButton = findViewById(R.id.productButton);
+        fruitsButton = findViewById(R.id.fruitsButton);
+
     }
 
-    @Override
-    public void onClick(View v) {
-        switch (v.getId()){
-            case R.id.categoryButton:
-            case R.id.productButton:
-                //
-        }
-    }
 
     public void categoryClicked(View view) {
 //        Toast toast = Toast.makeText(MainActivity.this,"category button is clicked", Toast.LENGTH_SHORT );
 //        toast.show();
         Intent intent = new Intent(this, CategoryActivity.class);
+
         startActivity(intent);
+
     }
 
     public void productClicked(View view) {
 //        Toast toast = Toast.makeText(MainActivity.this,"category button is clicked", Toast.LENGTH_SHORT );
 //        toast.show();
         Intent intent = new Intent(this, ProductActivity.class);
+        startActivity(intent);
+    }
+
+    public void fruitClicked(View view) {
+
+        //        Toast toast = Toast.makeText(MainActivity.this,"category button is clicked", Toast.LENGTH_SHORT );
+//        toast.show();
+        Intent intent = new Intent(this, FruitActivity.class);
+
         startActivity(intent);
     }
 }
