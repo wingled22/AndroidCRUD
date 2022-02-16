@@ -11,6 +11,12 @@
         <activity android:name=".CategoryActivity"
             android:exported="false"
             />
+        <activity android:name=".ProductActivity"
+            android:exported="false"
+            />
+        <activity android:name=".FruitActivity"
+            android:exported="false"
+            />
         <activity
             android:name=".MainActivity"
             android:exported="true">
