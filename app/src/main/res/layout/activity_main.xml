@@ -15,14 +15,12 @@
 
     <Button
         android:id="@+id/categoryButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="339dp"
+        android:layout_height="37dp"
         android:layout_below="@+id/textView"
         android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="154dp"
-        android:layout_marginTop="63dp"
-        android:layout_marginEnd="143dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="74dp"
         android:onClick="categoryClicked"
         android:text="Category" />
 
@@ -36,7 +34,7 @@
         android:layout_marginStart="149dp"
         android:layout_marginTop="83dp"
         android:layout_marginEnd="147dp"
-        android:onClick="categoryClicked"
+        android:onClick="productClicked"
         android:text="Product" />
 
     <Button
