@@ -5,6 +5,10 @@
       <map>
         <entry key="..\:/Career/FreelanceDev/Android/AndroidCRUD/app/src/main/res/layout/activity_category.xml" value="0.15806159420289856" />
         <entry key="..\:/Career/FreelanceDev/Android/AndroidCRUD/app/src/main/res/layout/category_add_popup.xml" value="0.25" />
+        <entry key="..\:/Users/soner/StudioProjects/AndroidCRUD/app/src/main/res/layout/activity_category.xml" value="0.25" />
+        <entry key="..\:/Users/soner/StudioProjects/AndroidCRUD/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/soner/StudioProjects/AndroidCRUD/app/src/main/res/layout/category_add_popup.xml" value="0.17481884057971014" />
+        <entry key="..\:/Users/soner/StudioProjects/AndroidCRUD/app/src/main/res/layout/layout_listitem.xml" value="0.2" />
       </map>
     </option>
   </component>
@@ -13,5 +17,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.33" />
+      </ProjectState>
+    </option>
   </component>
 </project>
