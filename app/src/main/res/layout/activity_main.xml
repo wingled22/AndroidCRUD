@@ -15,65 +15,44 @@
 
     <Button
         android:id="@+id/categoryButton"
-        android:layout_width="225dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="92dp"
-        android:layout_marginTop="169dp"
-        android:layout_marginEnd="93dp"
+        android:layout_marginStart="154dp"
+        android:layout_marginTop="63dp"
+        android:layout_marginEnd="143dp"
         android:onClick="categoryClicked"
         android:text="Category" />
 
     <Button
-        android:id="@+id/productButton"
-        android:layout_width="226dp"
+        android:id="@+id/categoryButton2"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/categoryButton"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="92dp"
-        android:layout_marginTop="56dp"
-        android:layout_marginEnd="93dp"
-        android:onClick="productClicked"
+        android:layout_marginStart="149dp"
+        android:layout_marginTop="83dp"
+        android:layout_marginEnd="147dp"
+        android:onClick="categoryClicked"
         android:text="Product" />
 
     <Button
-        android:id="@+id/POSButton"
-        android:layout_width="225dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/categoryButton"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="92dp"
-        android:layout_marginTop="156dp"
-        android:layout_marginEnd="94dp"
-        android:text="POS" />
-
-    <Button
-        android:id="@+id/SampleButton"
-        android:layout_width="225dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/categoryButton"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="92dp"
-        android:layout_marginTop="256dp"
-        android:layout_marginEnd="94dp"
-        android:text="Sample" />
-
-    <Button
         android:id="@+id/fruitsButton"
-        android:layout_width="225dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/SampleButton"
-        android:layout_alignParentStart="true"
+        android:layout_below="@+id/categoryButton2"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="91dp"
-        android:layout_marginTop="27dp"
-        android:layout_marginEnd="94dp"
-        android:text="fruit" />
+        android:layout_marginTop="81dp"
+        android:layout_marginEnd="166dp"
+        android:onClick="fruitClicked"
+        android:text="Fruits"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/categoryButton2" />
 
 
 </RelativeLayout>
