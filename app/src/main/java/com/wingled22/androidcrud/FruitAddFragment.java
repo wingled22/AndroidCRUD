@@ -16,7 +16,7 @@ import androidx.appcompat.app.AppCompatDialogFragment;
 //Extends to this
 public class FruitAddFragment extends AppCompatDialogFragment {
 private EditText txtName;
-private CategoryAddListener listener;
+private FruitAddListener listener;
 
 
 @NonNull
@@ -56,13 +56,13 @@ public void onAttach(@NonNull Context context) {
 super.onAttach(context);
 
 try {
-listener = (CategoryAddListener) context;
+listener = (FruitAddListener) context;
 } catch (ClassCastException e) {
 throw new ClassCastException(context.toString()+ "must implement CategoryAddFragmentListener");
 }
 }
 
-public interface CategoryAddListener{
+public interface FruitAddListener{
 public void saveCategory(String name);
 }
 }

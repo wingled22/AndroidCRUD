@@ -7,7 +7,7 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class FruitActivity extends AppCompatActivity implements FruitAddFragment.CategoryAddListener{
+public class FruitActivity extends AppCompatActivity implements FruitAddFragment.FruitAddListener{
 
     Button addBTN;
 
