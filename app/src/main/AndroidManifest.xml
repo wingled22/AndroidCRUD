@@ -7,7 +7,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AndroidCRUD">
+        android:theme="@style/Theme.AppCompat.Light">
         <activity android:name=".CategoryActivity"
             android:exported="false"
             />
@@ -20,7 +20,7 @@
 
         <activity android:name=".CardsOnGridActivity"
             android:exported="false"
-            android:screenOrientation="landscape"
+            android:screenOrientation="portrait"
             />
         <activity
             android:name=".MainActivity"
