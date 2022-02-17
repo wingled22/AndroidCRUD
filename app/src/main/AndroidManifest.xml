@@ -17,6 +17,11 @@
         <activity android:name=".FruitActivity"
             android:exported="false"
             />
+
+        <activity android:name=".CardsOnGridActivity"
+            android:exported="false"
+            android:screenOrientation="landscape"
+            />
         <activity
             android:name=".MainActivity"
             android:exported="true">
