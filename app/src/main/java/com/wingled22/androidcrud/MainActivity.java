@@ -29,24 +29,23 @@ public class MainActivity extends AppCompatActivity {
 //        Toast toast = Toast.makeText(MainActivity.this,"category button is clicked", Toast.LENGTH_SHORT );
 //        toast.show();
         Intent intent = new Intent(this, CategoryActivity.class);
-
         startActivity(intent);
 
     }
 
     public void productClicked(View view) {
-//        Toast toast = Toast.makeText(MainActivity.this,"category button is clicked", Toast.LENGTH_SHORT );
-//        toast.show();
         Intent intent = new Intent(this, ProductActivity.class);
         startActivity(intent);
     }
 
     public void fruitClicked(View view) {
 
-        //        Toast toast = Toast.makeText(MainActivity.this,"category button is clicked", Toast.LENGTH_SHORT );
-//        toast.show();
         Intent intent = new Intent(this, FruitActivity.class);
+        startActivity(intent);
+    }
 
+    public void sampleProdClicked(View view){
+        Intent intent = new Intent(this, CardsOnGridActivity.class);
         startActivity(intent);
     }
 }
