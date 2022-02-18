@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
 
     Button categoryButton ;
     Button fruitsButton ;
-    Button productButton ;
+   // Button productButton ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
