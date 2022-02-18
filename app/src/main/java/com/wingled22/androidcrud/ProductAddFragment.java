@@ -54,11 +54,11 @@ return builder.create();
 public void onAttach(@NonNull Context context) {
 super.onAttach(context);
 
-try {
-listener = (ProductAddListener) context;
-} catch (ClassCastException e) {
-throw new ClassCastException(context.toString()+ "must implement CategoryAddFragmentListener");
-}
+    try {
+        listener = (ProductAddListener) context;
+    } catch (ClassCastException e) {
+        throw new ClassCastException(context.toString()+ "must implement CategoryAddFragmentListener");
+    }
 }
 
 public interface ProductAddListener{

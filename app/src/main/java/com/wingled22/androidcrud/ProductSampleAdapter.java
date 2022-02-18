@@ -3,6 +3,7 @@ package com.wingled22.androidcrud;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -39,6 +40,7 @@ public class ProductSampleAdapter extends RecyclerView.Adapter<ProductSampleAdap
         //viewHolder.recycleImage.setImageResource(productArrayList.get(i).getImage());
         viewHolder.prodName.setText(productArrayList.get(i).getName());
         viewHolder.prodDesc.setText(productArrayList.get(i).getDescription());
+        viewHolder.prodImage.setImageResource(productArrayList.get(i).getImage());
     }
 
     @Override
@@ -52,12 +54,13 @@ public class ProductSampleAdapter extends RecyclerView.Adapter<ProductSampleAdap
 
         private TextView prodName;
         private TextView prodDesc;
-
+        private ImageView prodImage;
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
 
             prodName = (TextView) itemView.findViewById(R.id.prodName);
             prodDesc = (TextView) itemView.findViewById(R.id.prodDesc);
+            prodImage = (ImageView) itemView.findViewById(R.id.image);
         }
 
 

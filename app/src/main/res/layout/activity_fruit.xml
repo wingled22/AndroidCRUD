@@ -23,11 +23,12 @@
         android:id="@+id/recyclerViewFruit"
         android:layout_width="match_parent"
         android:layout_height="597dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="32dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        />
 
     <Button
         android:id="@+id/btnAddFruit"
@@ -36,6 +37,8 @@
         android:text="Add Fruit"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.463"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/recyclerViewFruit" />
+        app:layout_constraintTop_toTopOf="@+id/recyclerViewFruit"
+        app:layout_constraintVertical_bias="0.996" />
 </androidx.constraintlayout.widget.ConstraintLayout>

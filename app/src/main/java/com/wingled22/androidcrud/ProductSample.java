@@ -4,11 +4,13 @@ public class ProductSample {
     private int Id;
     private String Name;
     private  String Description;
+    private int Image;
 
-    public ProductSample(int id, String name, String description) {
+    public ProductSample(int id, String name, String description, int image) {
         Id = id;
         Name = name;
         Description = description;
+        Image = image;
     }
 
     public int getId() {
@@ -35,5 +37,12 @@ public class ProductSample {
         Description = description;
     }
 
+    public int getImage() {
+        return Image;
+    }
+
+    public void setImage(int image) {
+        Image = image;
+    }
 
 }
